@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --config pageLoadTimeout=80000",
+    "runtests": "npm run test --"
+  },
+  "author": "Chaithra_SSI",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.1"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
